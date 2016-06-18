@@ -6,7 +6,7 @@
 #    By: yboualla <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2016/02/26 15:11:11 by yboualla          #+#    #+#              #
-#    Updated: 2016/06/18 19:02:32 by yboualla         ###   ########.fr        #
+#    Updated: 2016/06/18 20:24:24 by yboualla         ###   ########.fr        #
 #                                                                              #
 #******************************************************************************#
 
@@ -19,7 +19,8 @@ SRC =	wolf3d.c \
 		raycast.c \
 		mouse_events.c \
 		color.c \
-		checks.c
+		checks.c \
+		effects.c
 
 OBJ =	$(SRC:.c=.o)
 
