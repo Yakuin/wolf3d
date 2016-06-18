@@ -6,7 +6,7 @@
 /*   By: yboualla <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/05/31 12:11:57 by yboualla          #+#    #+#             */
-/*   Updated: 2016/06/18 19:47:18 by yboualla         ###   ########.fr       */
+/*   Updated: 2016/06/18 20:23:21 by yboualla         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -76,10 +76,7 @@ static void		print_line(t_env *e, t_rayinfo *data, int x)
 		blend = 1.0;
 	while (drawStart != drawEnd)
 	{
-		if (settexture)
-			draw_pixel(e->buf, x, drawStart, gettexture());
-		else
-			draw_pixel(e->buf, x, drawStart, hex_color(color.r / blend, color.g / blend, color.b / blend));
+		draw_pixel(e->buf, x, drawStart, hex_color(color.r / blend, color.g / blend, color.b / blend));
       	drawStart++;
 	}
 }
