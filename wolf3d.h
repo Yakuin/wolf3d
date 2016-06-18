@@ -6,7 +6,7 @@
 /*   By: yboualla <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/05/31 11:40:49 by yboualla          #+#    #+#             */
-/*   Updated: 2016/06/18 19:33:21 by yboualla         ###   ########.fr       */
+/*   Updated: 2016/06/18 20:19:55 by yboualla         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -119,5 +119,5 @@ void				raycast(t_env *e, t_ray *r, t_rayinfo *rayinfo);
 void				loadmap(char **map);
 void				err_handle(int errnum);
 int					exit_event(t_env *e);
-void				print_crosshair(t_env *e)
+void				print_crosshair(t_env *e);
 #endif
